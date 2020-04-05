@@ -1,0 +1,8 @@
+SET SERVEROUTPUT ON;
+BEGIN
+  DEL_JOB('IT_DBA');
+  
+  DEL_JOB('WEB');
+  
+END;
+/
