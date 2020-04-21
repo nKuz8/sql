@@ -1,0 +1,13 @@
+GRANT CREATE ANY TABLE TO public;
+EXECUTE table_pkg.make('my_contacts', 'id number(4), name varchar2(40)');
+DESCRIBE my_contacts;
+EXECUTE table_pkg.add_row('my_contacts','1,''Geoff Gallus''','id, name');
+EXECUTE table_pkg.add_row('my_contacts','2,''Nancy''','id, name');
+EXECUTE table_pkg.add_row('my_contacts','3,''Sunitha Patel''','id,name');
+EXECUTE table_pkg.add_row('my_contacts','4,''Valli Pataballa''','id,name');
+SELECT * FROM my_contacts;
+EXECUTE table_pkg.del_row('my_contacts', 'id = 1');
+SELECT * FROM my_contacts;
+EXECUTE  table_pkg.upd_row('my_contacts','name=''Nancy Greenberg''','id=2');
+SELECT * FROM my_contacts;
+EXECUTE table_pkg.remove('my_contacts');
