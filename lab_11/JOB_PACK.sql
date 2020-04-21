@@ -1,0 +1,9 @@
+create or replace
+PACKAGE JOB_PACK AS
+
+  PROCEDURE ADD_JOB(p_job_id VARCHAR2, p_job_name VARCHAR2);
+  PROCEDURE UPD_JOB(p_job_id VARCHAR2, p_new_job_title VARCHAR2);
+  PROCEDURE DEL_JOB(p_job_id VARCHAR2);
+  FUNCTION  GET_JOB(p_job_id VARCHAR2) RETURN VARCHAR2;
+
+END JOB_PACK;
