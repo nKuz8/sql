@@ -1,0 +1,10 @@
+CREATE OR REPLACE
+PACKAGE BODY TEST_PKG AS
+
+  PROCEDURE GET_EMPLOYEES(deptid IN VARCHAR2, emp_table IN OUT emp_table_type) AS
+  BEGIN
+    SELECT * BULK COLLECT INTO emp_table FROM employees 
+    WHERE department_id = deptid;
+  END GET_EMPLOYEES;
+
+END TEST_PKG;

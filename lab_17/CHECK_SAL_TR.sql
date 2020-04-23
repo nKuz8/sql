@@ -1,0 +1,9 @@
+CREATE OR REPLACE
+TRIGGER CHECK_SAL_TR
+BEFORE INSERT OR UPDATE ON EMPLOYEES
+FOR EACH ROW 
+WHEN (NEW.job_id <> COALESCE(OLD.job_id, ' ') OR NEW.salary <> COALESCE(OLD.salary, 0))
+  BEGIN
+    check_sal(:NEW.job_id, :NEW.salary);    
+END;
+

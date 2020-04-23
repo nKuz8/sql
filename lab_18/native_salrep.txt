@@ -1,0 +1,43 @@
+Employees who earn more than average salary:
+
+REPORT GENERATED ON 23.04.20
+Hartstein 20 $13000
+Beh 30 $9000
+Morse 30 $6500
+Raphaely 30 $11000
+Weiss 50 $8000
+Fripp 50 $8200
+Kaufling 50 $7900
+Vollman 50 $6500
+Mourgos 50 $5800
+Ladwig 50 $3600
+Rajs 50 $3500
+Sarchand 50 $4200
+Bull 50 $4100
+Chung 50 $3800
+Dilly 50 $3600
+Bell 50 $4000
+Everett 50 $3900
+Hunold 60 $9000
+Russell 80 $14000
+Partners 80 $13500
+Errazuriz 80 $12000
+Cambrault 80 $11000
+Zlotkey 80 $10500
+Tucker 80 $10000
+Bernstein 80 $9500
+Hall 80 $9000
+King 80 $10000
+Sully 80 $9500
+McEwen 80 $9000
+Vishney 80 $10500
+Greene 80 $9500
+Ozer 80 $11500
+Bloom 80 $10000
+Fox 80 $9600
+Abel 80 $11000
+King 90 $24000
+Greenberg 100 $12008
+Faviet 100 $9000
+Higgins 110 $12008
+*** END OF REPORT ***
